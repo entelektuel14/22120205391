@@ -27,8 +27,8 @@ public class MailGonderme {
         String mailIcerigi = scanner.nextLine();
 
         String host = "smtp.office365.com"; // Mail sunucusu (Outlook kullanıldı)
-        String kullaniciAdi = "metn3434a@outlook.com"; // Mail adresi
-        String sifre = "Nestle192755870"; // Mail şifresi
+        String kullaniciAdi = "deneme@outlook.com"; // Mail adresi
+        String sifre = "denemesifre"; // Mail şifresi
         int port = 587; // Mail sunucusunun portu (Outlook için 587 kullanılır)
 
         Properties properties = new Properties();
